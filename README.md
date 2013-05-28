@@ -8,8 +8,8 @@ Running
 
 On *nix systems:
 
-./DataGrub.groovy [<args>]
+./DataGrub.groovy [args]
 
 on others:
 
-groovy DataGrub.groovy [<args>]
+groovy DataGrub.groovy [args]
