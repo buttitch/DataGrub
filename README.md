@@ -50,3 +50,8 @@ Download all "xlsx" files tagged "planning" to a "data" directory
 
     ./DataGrub.groovy -f xlsx -t planning -o data -d
     
+License
+-------
+
+This work is released under the [GPL v3 license](http://www.gnu.org/licenses/gpl-3.0.txt)
+    
