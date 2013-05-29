@@ -1,5 +1,9 @@
 #!/usr/bin/env groovy
 
+//---
+// This code is released under the GPL v3 license (see: http://www.gnu.org/licenses/gpl-3.0.txt)
+//---
+
 package buttitch.datagrub
 
 import java.text.SimpleDateFormat
