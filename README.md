@@ -30,7 +30,7 @@ Usage
      -h,--help                Show usage information
      -l,--list                list all available tags
      -o,--output <dir>        output directory to be used for downloaded
-                          files, defined by "dir"
+                              files, defined by "dir"
      -t,--tags <tags>         What datasets should be downloaded, defined by
                               "tags" comma separated list                          
 
@@ -38,4 +38,15 @@ Usage
 Examples
 --------
 
-later
+List available dataset "tags"
+
+    ./DataGrub.groovy -l
+    
+Print to standard out all "shp" and "doc" files tagged "planning" in dataset
+
+    ./DataGrub.groovy -f shp,doc -t planning
+   
+Download all "xlsx" files tagged "planning" to a "data" directory
+
+    ./DataGrub.groovy -f xlsx -t planning -o data -d
+    
